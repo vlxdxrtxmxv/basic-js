@@ -19,6 +19,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * reverseMachine.decrypt('AEIHQX SX DLLU!', 'alphonse') => '!NWAD TA KCATTA'
  * 
  */
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 class VigenereCipheringMachine {
   constructor(value)
   {
