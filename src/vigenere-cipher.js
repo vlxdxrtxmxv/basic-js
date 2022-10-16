@@ -78,7 +78,7 @@ class VigenereCipheringMachine {
         index.push(messtr[i]);
       }
     }
-    if(this.ttype === false) index.reverse();
+    if(this.value === false) index.reverse();
     return index.join('');
   }
 }
